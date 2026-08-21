@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="РџР»Р°РЅРёСЂРѕРІС‰РёРє РґРЅСЏ СЂРѕР¶РґРµРЅРёСЏ: Р±СЋРґР¶РµС‚, РїСЂРёРіР»Р°С€РµРЅРёРµ, РјРµРЅСЋ, РїСЂРѕРіСЂР°РјРјР° Рё С‡РµРє-Р»РёСЃС‚." />
+    <title>РџСЂР°Р·РґРЅРёРє вЂ” РїР»Р°РЅРёСЂРѕРІС‰РёРє РґРЅСЏ СЂРѕР¶РґРµРЅРёСЏ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="РџСЂР°Р·РґРЅРёРє вЂ” РЅР° РіР»Р°РІРЅСѓСЋ"><span class="brand-mark">вњ¦</span>РџСЂР°Р·РґРЅРёРє</a>
+      <nav aria-label="РћСЃРЅРѕРІРЅР°СЏ РЅР°РІРёРіР°С†РёСЏ">
+        <a href="#planner">РџР»Р°РЅ</a><a href="#budget">Р‘СЋРґР¶РµС‚</a><a href="#program">РџСЂРѕРіСЂР°РјРјР°</a>
+      </nav>
+      <button class="button button-quiet" id="new-event" type="button">РќРѕРІС‹Р№ РїР»Р°РЅ</button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">РћСЂРіР°РЅРёР·СѓР№С‚Рµ РїСЂР°Р·РґРЅРёРє Р±РµР· С‚Р°Р±Р»РёС† Рё С…Р°РѕСЃР°</p>
+          <h1>Р’СЃС‘ РґР»СЏ РґРЅСЏ СЂРѕР¶РґРµРЅРёСЏ вЂ”<br /><em>РІ РѕРґРЅРѕРј РїР»Р°РЅРµ.</em></h1>
+          <p class="hero-copy">РЎРѕР±РµСЂРёС‚Рµ Р±СЋРґР¶РµС‚, РїСЂРёРіР»Р°С€РµРЅРёРµ, РјРµРЅСЋ, РјСѓР·С‹РєСѓ, РёРіСЂСѓ Рё С‚Р°Р№РјРёРЅРі Р·Р° РЅРµСЃРєРѕР»СЊРєРѕ РјРёРЅСѓС‚.</p>
+          <a class="button button-primary" href="#planner">РЎРѕР±СЂР°С‚СЊ РїР»Р°РЅ <span aria-hidden="true">в†’</span></a>
+        </div>
+        <div class="hero-card" aria-label="РџСЂРµРґРїСЂРѕСЃРјРѕС‚СЂ РїР»Р°РЅРёСЂРѕРІС‰РёРєР°">
+          <div class="hero-card-top"><span>РџСЂР°Р·РґРЅРёРє РњРёСЂС‹</span><span>07.11</span></div>
+          <div class="hero-card-body">
+            <span class="chip">30 РіРѕСЃС‚РµР№</span><span class="chip">РђР»РјР°С‚С‹</span>
+            <div class="hero-total"><span>Р‘СЋРґР¶РµС‚</span><strong>600 000 в‚ё</strong></div>
+            <div class="mini-bars"><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="steps" aria-label="РљР°Рє СЌС‚Рѕ СЂР°Р±РѕС‚Р°РµС‚"><span>01. Р—Р°РїРѕР»РЅРёС‚Рµ РґРµС‚Р°Р»Рё</span><span>02. РќР°СЃС‚СЂРѕР№С‚Рµ РїР»Р°РЅ</span><span>03. РЎРѕС…СЂР°РЅРёС‚Рµ Рё РїСЂР°Р·РґРЅСѓР№С‚Рµ</span></section>
+
+      <section class="planner" id="planner">
+        <div class="section-heading"><p class="eyebrow">Р’Р°С€ РїСЂР°Р·РґРЅРёРє</p><h2>РЎРѕР±РµСЂРёС‚Рµ РґРµС‚Р°Р»Рё</h2><p>РњРµРЅСЏР№С‚Рµ Р»СЋР±С‹Рµ Р·РЅР°С‡РµРЅРёСЏ вЂ” СЂР°СЃС‡С‘С‚С‹ Рё РїР»Р°РЅ РѕР±РЅРѕРІСЏС‚СЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё.</p></div>
+        <form id="event-form" class="details-grid">
+          <label>РРјСЏ РёРјРµРЅРёРЅРЅРёРєР°<input id="celebrant" type="text" value="РњРёСЂР°" maxlength="50" /></label>
+          <label>Р“РѕСЂРѕРґ<input id="city" type="text" value="РђР»РјР°С‚С‹" maxlength="60" /></label>
+          <label>Р”Р°С‚Р°<input id="event-date" type="date" value="2026-11-07" /></label>
+          <label>РќР°С‡Р°Р»Рѕ<input id="start-time" type="time" value="19:00" /></label>
+          <label>РћРєРѕРЅС‡Р°РЅРёРµ<input id="end-time" type="time" value="01:00" /></label>
+          <label>РљРѕР»РёС‡РµСЃС‚РІРѕ РіРѕСЃС‚РµР№<input id="guest-count" type="number" value="30" min="1" max="500" /></label>
+          <label>Р‘СЋРґР¶РµС‚ РЅР° РіРѕСЃС‚СЏ, в‚ё<input id="per-person" type="number" value="20000" min="0" step="500" /></label>
+          <label>Р¤РѕСЂРјР°С‚<select id="format"><option value="РђРєС‚РёРІРЅС‹Р№ РІРµС‡РµСЂ" selected>РђРєС‚РёРІРЅС‹Р№ РІРµС‡РµСЂ</option><option value="РЎРїРѕРєРѕР№РЅС‹Р№ СѓР¶РёРЅ">РЎРїРѕРєРѕР№РЅС‹Р№ СѓР¶РёРЅ</option><option value="РљР°СЂР°РѕРєРµ">РљР°СЂР°РѕРєРµ</option><option value="Р”РѕРјР°С€РЅСЏСЏ РІРµС‡РµСЂРёРЅРєР°">Р”РѕРјР°С€РЅСЏСЏ РІРµС‡РµСЂРёРЅРєР°</option></select></label>
+          <label>РљСѓС…РЅСЏ<select id="cuisine"><option value="Р•РІСЂРѕРїРµР№СЃРєР°СЏ" selected>Р•РІСЂРѕРїРµР№СЃРєР°СЏ</option><option value="РљР°Р·Р°С…СЃРєР°СЏ">РљР°Р·Р°С…СЃРєР°СЏ</option><option value="РђР·РёР°С‚СЃРєР°СЏ">РђР·РёР°С‚СЃРєР°СЏ</option><option value="РЎРјРµС€Р°РЅРЅР°СЏ">РЎРјРµС€Р°РЅРЅР°СЏ</option></select></label>
+          <label>РњСѓР·С‹РєР°<select id="music-style"><option value="90-С…" selected>90-С…</option><option value="2000-С…">2000-С…</option><option value="РЎРѕРІСЂРµРјРµРЅРЅС‹Рµ С…РёС‚С‹">РЎРѕРІСЂРµРјРµРЅРЅС‹Рµ С…РёС‚С‹</option><option value="РЎРјРµС€Р°РЅРЅС‹Р№ РїР»РµР№Р»РёСЃС‚">РЎРјРµС€Р°РЅРЅС‹Р№ РїР»РµР№Р»РёСЃС‚</option></select></label>
+          <label>РџР»РѕС‰Р°РґРєР°<input id="venue" type="text" value="Р¤РѕСЂС‚ Р’РµСЂРЅС‹Р№" maxlength="80" /></label>
+          <label>РђРґСЂРµСЃ<input id="venue-address" type="text" value="РўРѕР»Рµ Р±Рё, 179, РђР»РјР°С‚С‹" maxlength="120" /></label>
+        </form>
+        <div class="toggle-row"><label class="toggle"><input id="alcohol" type="checkbox" checked /><span></span>РђР»РєРѕРіРѕР»СЊ РІРєР»СЋС‡С‘РЅ РІ Р±СЋРґР¶РµС‚</label><label class="toggle"><input id="service-separate" type="checkbox" checked /><span></span>РЎРµСЂРІРёСЃРЅС‹Р№ СЃР±РѕСЂ вЂ” РѕС‚РґРµР»СЊРЅРѕ</label><label class="toggle"><input id="dance-floor" type="checkbox" checked /><span></span>РќСѓР¶РµРЅ С‚Р°РЅС†РїРѕР»</label></div>
+      </section>
+
+      <section class="dashboard" aria-label="РЎРІРѕРґРєР° РїРѕ РїСЂР°Р·РґРЅРёРєСѓ">
+        <article><span>Р“РѕСЃС‚РµР№</span><strong id="summary-guests">30</strong><small>С‡РµР»РѕРІРµРє</small></article>
+        <article><span>Р‘Р°РЅРєРµС‚РЅС‹Р№ Р»РёРјРёС‚</span><strong id="summary-budget">600 000 в‚ё</strong><small>Р±РµР· СЃРµСЂРІРёСЃРЅРѕРіРѕ СЃР±РѕСЂР° Рё С‚РѕСЂС‚Р°</small></article>
+        <article><span>Р”Р»РёС‚РµР»СЊРЅРѕСЃС‚СЊ</span><strong id="summary-duration">6 С‡.</strong><small id="summary-venue">Р¤РѕСЂС‚ Р’РµСЂРЅС‹Р№</small></article>
+      </section>
+
+      <section class="plan-section" id="budget">
+        <div class="section-heading"><p class="eyebrow">Р”РµРЅСЊРіРё РїРѕРґ РєРѕРЅС‚СЂРѕР»РµРј</p><h2>Р‘СЋРґР¶РµС‚</h2></div>
+        <div class="budget-layout">
+          <div class="budget-chart" aria-label="Р Р°СЃРїСЂРµРґРµР»РµРЅРёРµ Р±СЋРґР¶РµС‚Р°"><div class="donut"><span id="budget-donut">600<br /><small>С‚С‹СЃ. в‚ё</small></span></div><div class="legend"><span><i class="food-dot"></i>Р•РґР° Рё Р·Р°РєСѓСЃРєРё <b id="food-total">360 000 в‚ё</b></span><span><i class="drinks-dot"></i>РќР°РїРёС‚РєРё Рё Р°Р»РєРѕРіРѕР»СЊ <b id="drink-total">150 000 в‚ё</b></span><span><i class="reserve-dot"></i>Р РµР·РµСЂРІ <b id="reserve-total">90 000 в‚ё</b></span></div></div>
+          <div class="budget-controls">
+            <label>РЎРµСЂРІРёСЃРЅС‹Р№ СЃР±РѕСЂ, %<input id="service-percent" type="number" value="10" min="0" max="30" /></label>
+            <label>РўРѕСЂС‚, в‚ё<input id="cake-cost" type="number" value="45000" min="0" step="1000" /></label>
+            <div class="budget-total"><span>РС‚РѕРіРѕРІС‹Р№ Р±СЋРґР¶РµС‚</span><strong id="grand-total">705 000 в‚ё</strong><small id="budget-note">Р‘Р°РЅРєРµС‚ + СЃРµСЂРІРёСЃ + С‚РѕСЂС‚</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="plan-section split-section" id="invitation">
+        <div><div class="section-heading"><p class="eyebrow">РЎРѕРѕР±С‰РµРЅРёРµ РіРѕСЃС‚СЏРј</p><h2>РџСЂРёРіР»Р°С€РµРЅРёРµ</h2></div><div class="invite-style" role="group" aria-label="РЎС‚РёР»СЊ РїСЂРёРіР»Р°С€РµРЅРёСЏ"><button class="style-button active" data-style="warm" type="button">РўС‘РїР»РѕРµ</button><button class="style-button" data-style="festive" type="button">РџСЂР°Р·РґРЅРёС‡РЅРѕРµ</button><button class="style-button" data-style="short" type="button">РљРѕСЂРѕС‚РєРѕРµ</button></div><textarea id="invitation-text" rows="11"></textarea><div class="inline-actions"><button class="button button-primary" id="copy-invitation" type="button">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ</button><span id="copy-status" role="status"></span></div></div>
+        <aside class="tip-card"><span class="tip-icon">вњ‰</span><h3>РЎРѕРІРµС‚</h3><p>РћС‚РїСЂР°РІСЊС‚Рµ РїСЂРёРіР»Р°С€РµРЅРёРµ Р·Р° 3вЂ“4 РЅРµРґРµР»Рё Рё РїРѕРїСЂРѕСЃРёС‚Рµ РїРѕРґС‚РІРµСЂРґРёС‚СЊ СѓС‡Р°СЃС‚РёРµ Р·Р° 7 РґРЅРµР№ РґРѕ РїСЂР°Р·РґРЅРёРєР°.</p></aside>
+      </section>
+
+      <section class="plan-section" id="menu"><div class="section-heading"><p class="eyebrow">Р”Р»СЏ РїСЂР°Р·РґРЅРёС‡РЅРѕРіРѕ СЃС‚РѕР»Р°</p><h2>РњРµРЅСЋ</h2><p>РћСЂРёРµРЅС‚РёСЂРѕРІРѕС‡РЅР°СЏ СЃС‚СЂСѓРєС‚СѓСЂР° Р±Р°РЅРєРµС‚Р°. РР·РјРµРЅРёС‚Рµ Р·РЅР°С‡РµРЅРёСЏ РїРѕРґ РјРµРЅСЋ РїР»РѕС‰Р°РґРєРё.</p></div><div class="table-wrap"><table><thead><tr><th>РљР°С‚РµРіРѕСЂРёСЏ</th><th>РџРѕР·РёС†РёСЏ</th><th>РЎСѓРјРјР°, в‚ё</th><th></th></tr></thead><tbody id="menu-body"></tbody></table></div><button id="add-menu-row" class="button button-quiet add-row" type="button">+ Р”РѕР±Р°РІРёС‚СЊ РїРѕР·РёС†РёСЋ</button><p class="menu-summary">РС‚РѕРіРѕ РїРѕ РјРµРЅСЋ: <strong id="menu-total">0 в‚ё</strong> <span id="menu-warning"></span></p></section>
+
+      <section class="plan-section" id="program"><div class="section-heading"><p class="eyebrow">РќР°СЃС‚СЂРѕРµРЅРёРµ РІРµС‡РµСЂР°</p><h2>РњСѓР·С‹РєР° Рё РёРіСЂР°</h2></div><div class="program-grid"><article class="program-card"><div class="card-label">РџР»РµР№Р»РёСЃС‚</div><h3 id="playlist-title">РҐРёС‚С‹ 90-С…</h3><ol id="playlist"></ol></article><article class="program-card featured"><div class="card-label">РРіСЂР° Р±РµР· РїРѕРґРіРѕС‚РѕРІРєРё</div><h3>РњСѓР·С‹РєР°Р»СЊРЅС‹Р№ СЃС‚РѕРї-РєР°РґСЂ</h3><p>Р’РєР»СЋС‡РёС‚Рµ Р·РЅР°РєРѕРјС‹Р№ С…РёС‚. РљРѕРіРґР° РјСѓР·С‹РєР° СЂРµР·РєРѕ РѕСЃС‚Р°РЅР°РІР»РёРІР°РµС‚СЃСЏ, РІСЃРµ Р·Р°РјРёСЂР°СЋС‚. РўРѕС‚, РєС‚Рѕ РїРѕС€РµРІРµР»РёР»СЃСЏ, РіРѕРІРѕСЂРёС‚ С‚С‘РїР»РѕРµ РїРѕР¶РµР»Р°РЅРёРµ РњРёСЂРµ РёР»Рё РїРѕРєР°Р·С‹РІР°РµС‚ РЅРѕРІРѕРµ С‚Р°РЅС†РµРІР°Р»СЊРЅРѕРµ РґРІРёР¶РµРЅРёРµ.</p><div class="game-meta"><span>10вЂ“15 РјРёРЅСѓС‚</span><span>Р±РµР· СЂРµРєРІРёР·РёС‚Р°</span><span>РІСЃРµ РіРѕСЃС‚Рё</span></div></article></div></section>
+
+      <section class="plan-section"><div class="section-heading"><p class="eyebrow">Р’РµС‡РµСЂ РїРѕ РјРёРЅСѓС‚Р°Рј</p><h2>РўР°Р№РјРёРЅРі</h2></div><div class="timeline" id="timeline"></div></section>
+
+      <section class="plan-section checklist-section"><div class="section-heading"><p class="eyebrow">РќРёС‡РµРіРѕ РЅРµ Р·Р°Р±С‹С‚СЊ</p><h2>Р§РµРє-Р»РёСЃС‚</h2></div><div id="checklist" class="checklist"></div><div class="add-task"><input id="new-task" type="text" placeholder="Р”РѕР±Р°РІРёС‚СЊ СЃРІРѕС‘ РґРµР»Рѕ" maxlength="120" /><button id="add-task" class="button button-quiet" type="button">Р”РѕР±Р°РІРёС‚СЊ</button></div></section>
+
+      <section class="final-actions"><div><p class="eyebrow">РџР»Р°РЅ РіРѕС‚РѕРІ</p><h2>РћСЃС‚Р°РЅРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РїСЂР°Р·РґРЅРѕРІР°С‚СЊ.</h2></div><div><button class="button button-quiet" id="save-plan" type="button">РЎРѕС…СЂР°РЅРёС‚СЊ РїР»Р°РЅ</button><button class="button button-primary" id="print-plan" type="button">РЎРєР°С‡Р°С‚СЊ / РїРµС‡Р°С‚СЊ</button></div></section>
+    </main>
+    <footer>РЎРґРµР»Р°РЅРѕ РґР»СЏ РїСЂРёСЏС‚РЅРѕР№ РїРѕРґРіРѕС‚РѕРІРєРё Рє РІР°Р¶РЅС‹Рј РІРµС‡РµСЂР°Рј.</footer>
+    <script src="app.js"></script>
+  </body>
+</html>
+
